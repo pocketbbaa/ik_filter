@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>IK Analyzer 扩展配置</comment>
+
+    <!-- 配置查询类型  status ……-->
+    <entry key="type">1</entry>
+
+    <!-- 配置JDBC链接 -->
+
+    <!-- 开发 -->
+    <entry key="jdbcUrl">jdbc:mysql://47.104.165.109:3306/kgweb,kgweb,kgweb!@#</entry>
+
+    <!-- 测试 -->
+    <!--<entry key="jdbcUrl">jdbc:mysql://172.16.0.17:3306/kgweb,kgweb,kgweb!@#</entry>-->
+
+    <!-- 线上配置 -->
+    <!--<entry key="jdbcUrl">jdbc:mysql://rm-2ze8t92d9382921kirw.mysql.rds.aliyuncs.com:3306/kgweb,kgweb,kgweb!@#123</entry>-->
+
+    <!-- 敏感词库 -->
+    <entry key="ext_dict_sensitive_words">kg_sensitive_words</entry>
+
+    <!-- 关键词库 -->
+    <entry key="ext_dict_key_words">kg_key_words</entry>
+</properties>
